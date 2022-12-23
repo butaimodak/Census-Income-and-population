@@ -123,5 +123,4 @@ This dataset gives monthwise population data from 1952-2019 based on which I hav
 2. Ploting to find trend-seasonality of population and its growth (1st shift)<br>
 3. Ploting ACF and PACF to check indirect and direct correlation of previous lag
 4. Building model and forecating.
- </details> 
- <details>
+ </details>
