@@ -115,7 +115,6 @@ This dataset gives monthwise population data from 1952-2019 based on which I hav
 5. auto_arima
 6. datetime
 
-<\details>
 </details>
 <details>
     <summary>EDA & Forecasting:</summary>
