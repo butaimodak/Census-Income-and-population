@@ -1,4 +1,5 @@
 # Census-Income-and-population
+## 1. Census Income
 [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/adult)
 
 <img src="https://th.bing.com/th/id/R.552dedf6558abb339fee0e3761352307?rik=Y7fvnO3L7IE0sg&riu=http%3a%2f%2ffreedomandprosperity.org%2fwp-content%2fuploads%2f2015%2f09%2fCensus-Income-600x390.jpg&ehk=qXkQhqDZdZANcrKBulbhzpVdkcCBN3zUsG%2bq4VGPDcg%3d&risl=&pid=ImgRaw&r=0" />
@@ -51,13 +52,7 @@ In this project I have done EDA, feature selection and applied different machine
 25. plot_confusion_matrix<br>
 26. classification_report
  
-## For time series analysis
-27. plot_acf
-28. plot_pacf
-29. ARIMA
-30. SARIMAX
-31. auto_arima
-32. datetime
+
 </details>
 <details>
     <summary>EDA:</summary>
@@ -100,3 +95,33 @@ In this project I have done EDA, feature selection and applied different machine
   2. Logistic regression gives highest recall (85%) for minority class<br>
  </details>
  
+ ## 2. Population forecasting
+ 
+<img src="https://media.istockphoto.com/vectors/population-demographics-report-pie-chart-composed-of-people-vector-id1150668297" />
+
+## Description:
+
+This dataset gives monthwise population data from 1952-2019 based on which I have forecasted next 6 month population.
+
+## Process flowchart:
+
+<details>
+    <summary>Imported libraries:</summary>
+    
+1. plot_acf
+2. plot_pacf
+3. ARIMA
+4. SARIMAX
+5. auto_arima
+6. datetime
+
+<\details>
+</details>
+<details>
+    <summary>EDA & Forecasting:</summary>
+1. Null value Analysis<br>
+2. Ploting to find trend-seasonality of population and its growth (1st shift)<br>
+3. Ploting ACF and PACF to check indirect and direct correlation of previous lag
+4. Building model and forecating.
+ </details> 
+ <details>
